@@ -84,6 +84,22 @@
     color: #FEE50E;
 }
 
+.text-008081 {
+    color: #008081;
+}
+
+.text-4F4F4F {
+    color: #4F4F4F;
+}
+
+.text-2C2C47 {
+    color: #2C2C47;
+}
+
+.text-F07C00 {
+    color: #F07C00;
+}
+
 .text-1 {
     transform: skew(10deg, -2deg);
 }
@@ -98,6 +114,21 @@
     width: fit-content;
 }
 
+.bg-FEE50E {
+    background: #FEE50E;
+}
+
+.bg-EEDBBE {
+    background: #EEDBBE;
+}
+
+.bg-009090 {
+    background: #009090;
+}
+
+.bg-F07C00 {
+    background: #F07C00;
+}
 /*-----SECTION-----*/
 .section {
     height: 80vh;
@@ -120,4 +151,248 @@
 .icon {
     width: 30px;
     height: 30px;
+}
+
+.footer-text p {
+    font-size: 14px;
+}
+
+/*-----ABOUT US-CSS-----*/
+
+/*-----SECTION-1-CSS-----*/
+
+.rectangle {
+    background: #F07C00;
+    position: absolute;
+    height: 200px;
+    width: 215px;
+    bottom: 37px;
+    left: 44px;
+    border-bottom-left-radius: 36px;
+}
+
+.image img {
+    width: 90%;
+    float: inline-end;
+}
+
+.explore-menu {
+    box-shadow: 3px 3px #008081;
+}
+
+@media only screen and (max-width:767px) {
+    .rectangle {
+        height: 100px;
+        width: 160px;
+        bottom: -12px;
+        left: 36px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .rectangle {
+        bottom: -15px;
+        left: 58px;
+    }
+}
+
+/*-----SECTION-2-CSS-----*/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .box {
+        height: 190px;
+    }
+}
+
+/*-----SECTION-3-CSS-----*/
+
+.image-gif img {
+    width: 95%;
+}
+
+.rectangle-1 {
+    background: #FEE50E;
+    position: absolute;
+    height: 140px;
+    width: 165px;
+    bottom: -10px;
+    right: 30px;
+    border-bottom-right-radius: 36px;
+}
+
+.franchise {
+    box-shadow: 3px 3px #000;
+}
+
+.franchise-btn:hover {
+    color: #FEE50E;
+    background: #000;
+}
+
+@media only screen and (max-width:767px) {
+    .rectangle-1 {
+        height: 118px;
+        width: 130px;
+        bottom: -15px;
+        right: 17px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .rectangle-1 {
+        bottom: -14px !important;
+    }
+}
+
+/*-----GALLERY-CSS-----*/
+
+.gallery-images {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wrapper>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 240px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+/*-----CONNECT-CSS-----*/
+.image-connect img {
+    width: 90%;
+}
+
+.rectangle-connect {
+    position: absolute;
+    width: 90%;
+    height: 65px;
+    background: #EE8529;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    bottom: -10px;
+    left: 0;
+}
+
+.home-btn {
+    box-shadow: 4px 4px #000;
+}
+
+.home-btn:hover {
+    color: #008081 !important;
+    background: #fff;
+    border: 1px solid #000 !important;
+}
+
+@media only screen and (max-width:767px) {
+    .image-connect img {
+        width: 100% !important;
+    }
+
+    .rectangle-connect {
+        width: 96%;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .detail {
+        margin-top: 22px;
+    }
+
+    .images {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .image-connect img {
+        width: 100% !important;
+    }
+
+    .rectangle-connect {
+        width: 100%;
+    }
+
+    .detail {
+        margin-top: 20px;
+    }
+
+    .images {
+        margin-top: 15px;
+    }
+}
+
+/*-----FRANCHISE-CSS-----*/
+
+/*-----SECTION-2-CSS-----*/
+.icon p {
+    font-size: 14px;
+}
+
+/*-----SECTION-3-CSS-----*/
+.box p {
+    font-size: 13px;
+}
+
+.box {
+    height: 190px;
+}
+
+.icon-with-text h5 {
+    font-size: 16px;
+}
+
+ul::marker {
+    color: blue !important;
+}
+
+/*-----SECTION-5-CSS-----*/
+.btn1:hover {
+    background: #fff;
+    color: #008081 !important;
+}
+
+.buttons a:hover {
+    color: #008081 !important;
+    background: #fff;
+}
+
+@media only screen and (max-width:767px) {
+    .box{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .box{
+        margin-bottom: 10px;
+    }
 }
