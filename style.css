@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+
+.home-banner {
+    background-image: url(Images/Home\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+}
+
+/*--------HEADER-CSS---------*/
+.navbar-brand img {
+    width: 10%;
+    top: -17px;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 128, 129, 0.9), rgba(0, 128, 129, 0.9)), url(Images/header.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.nav-btn:hover {
+    background: #fff;
+    color: #EE8529 !important;
+}
+
+.nav-item a.active {
+    background: #ffffff23 !important;
+    border-radius: 4px;
+}
+
+.nav-item a:hover {
+    background: #ffffff23;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-brand img {
+        width: 27%;
+    }
+
+    .navbar-nav li a {
+        color: #000 !important;
+    }
+
+    .navbar-nav li button {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .navbar-brand img {
+        width: 16%;
+    }
+
+    .navbar-nav li a {
+        color: #000 !important;
+    }
+
+    .navbar-nav li button {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff !important;
+    }
+}
+
+/*---TEXT---*/
+.text-FEE50E {
+    color: #FEE50E;
+}
+
+.text-1 {
+    transform: skew(10deg, -2deg);
+}
+
+/*---BACKGROUND---*/
+.bg-008081 {
+    background: #008081;
+}
+
+.bg-EE8529 {
+    background: #EE8529;
+    width: fit-content;
+}
+
+/*-----SECTION-----*/
+.section {
+    height: 80vh;
+}
+
+.sec-row {
+    height: 80vh;
+}
+
+.home-btn:hover {
+    color: #008081 !important;
+    background: #fff;
+}
+
+.text h1 {
+    font-size: 50px;
+}
+
+/*-----FOOTER-----*/
+.icon {
+    width: 30px;
+    height: 30px;
+}

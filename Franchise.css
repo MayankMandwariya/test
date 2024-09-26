@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+
+/*--------HEADER-CSS---------*/
+.navbar-brand img {
+    width: 10%;
+    top: -17px;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 128, 129, 0.9), rgba(0, 128, 129, 0.9)), url(Images/header.png);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.nav-btn:hover {
+    background: #fff;
+    color: #EE8529 !important;
+}
+
+.nav-item a.active {
+    background: #ffffff23 !important;
+    border-radius: 4px;
+}
+
+.nav-item a:hover {
+    background: #ffffff23;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-brand img {
+        width: 27%;
+    }
+
+    .navbar-nav li a {
+        color: #000 !important;
+    }
+
+    .navbar-nav li button {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .navbar-brand img {
+        width: 16%;
+    }
+
+    .navbar-nav li a {
+        color: #000 !important;
+    }
+
+    .navbar-nav li button {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff !important;
+    }
+}
+
+/*---BACKGROUND---*/
+.bg-EE8529 {
+    background: #EE8529;
+}
+
+.bg-EEDBBE {
+    background: #EEDBBE;
+}
+
+.bg-FEE50E {
+    background: #FEE50E;
+}
+
+.bg-008081 {
+    background: #008081;
+}
+
+.bg-009090 {
+    background: #009090;
+}
+
+.bg-F07C00 {
+    background: #F07C00;
+}
+
+/*---TEXT---*/
+.text-008081 {
+    color: #008081;
+}
+
+.text-4F4F4F {
+    color: #4F4F4F;
+}
+
+.text-FEE50E {
+    color: #FEE50E;
+}
+
+.text-EE8529 {
+    color: #EE8529;
+}
+
+/*-----SECTION-2-CSS-----*/
+.icon p {
+    font-size: 14px;
+}
+
+/*-----SECTION-3-CSS-----*/
+.box p {
+    font-size: 13px;
+}
+
+.box {
+    height: 190px;
+}
+
+.icon-with-text h5 {
+    font-size: 16px;
+}
+
+ul::marker {
+    color: blue !important;
+}
+
+/*-----SECTION-4-CSS-----*/
+.home-btn:hover {
+    color: #008081 !important;
+    background: #fff !important;
+}
+
+/*-----SECTION-5-CSS-----*/
+.btn1:hover {
+    background: #fff;
+    color: #008081 !important;
+}
+
+.buttons a:hover {
+    color: #008081 !important;
+    background: #fff;
+}
+
+@media only screen and (max-width:767px) {
+    .box{
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .box{
+        margin-bottom: 10px;
+    }
+}
+
+/*-----FOOTER-----*/
+.icon {
+    width: 30px;
+    height: 30px;
+}
